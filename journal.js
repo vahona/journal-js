@@ -19,20 +19,20 @@ const journal = [
   function listOfentry () {
     const choice = prompt("Welcome to my Onja journal! \nChoose (1) for listing all the entry \nChoose (2) for adding a new entry \nChoose (3) to quite \nChoose (4) deleted the first entry \nChoose (5) deleted a specific entry")
 
-    switch(journal){
-      case "1":
+    if(choice === "1"){
       conditionset();
-      break;
-      case "2":
+    }
+    else if(choice === "2"){
       addnewjournal();
-      break;
-      case "3":
+    }
+    else if(choice === "3"){
       quit();
-      break;
-      case "4":
+    }
+    else if(choice === "4"){
       deleted();
-      break;
-      case "5":
+    }
+      
+    else if(choice === "5"){
       deletedspecific();
     }
   
