@@ -18,7 +18,6 @@ const journal = [
 /* Function defining each user's choice */
   function listOfentry () {
     const choice = prompt("Welcome to my Onja journal! \nChoose (1) for listing all the entry \nChoose (2) for adding a new entry \nChoose (3) to quite \nChoose (4) deleted the first entry \nChoose (5) deleted a specific entry")
-
     if(choice === "1"){
       conditionset();
     }
@@ -35,7 +34,7 @@ const journal = [
     else if(choice === "5"){
       deletedspecific();
     }
-  
+  }
 // Function for all the condition
 // First of the fuction, user want to to see all of the list of the journal.  
   function conditionset (){
@@ -75,6 +74,6 @@ const journal = [
   }
   
 
-  }
+
 
 
